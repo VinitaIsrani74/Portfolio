@@ -22,13 +22,13 @@ const About = () => {
         <div className="topSection-right">
 
 
-          <img src={Image} alt="" className="about-image" />
+          <img src={Image} alt="about" className="about-image" />
         </div>
       </div>
 
       {/* bottom-section */}
       <div className="bottomSection">
-        <img src={Image2} alt="" className="about-img" />
+        <img src={Image2} alt="about" className="about-img" />
         <div className="bottomSection-right">
           <div className="bottomSection-heading">About Me and My Work</div>
           <p>
