@@ -88,7 +88,7 @@ const Projects = () => {
       ],
       technology:
         "Built using HTML (for structuring the app's layout), CSS (for styling) and JavaScript (for interactivity, User input management and for making asynchronous requests to the API) ",
-      url: "https://github.com/VinitaIsrani74/Hangman-Game",
+      url: "https://github.com/VinitaIsrani74/Food-Recipe-App",
     },
     {
       img: {url1: weather1,url2: weather2, url3:weather3},
@@ -102,7 +102,7 @@ const Projects = () => {
       ],
       technology:
         "Built using HTML (for structuring the app's layout), CSS (for styling) and JavaScript (for interactivity, User input management and for making asynchronous requests to the API) ",
-      url: "https://github.com/VinitaIsrani74/Hangman-Game",
+      url: "https://github.com/VinitaIsrani74/Weather-application",
     },
     {
       img: {url1: sps1,url2: sps2, url3:sps3},
