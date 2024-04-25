@@ -188,7 +188,7 @@ const Projects = () => {
                 </div>
                 <strong>Technology Used:{project.technology}</strong>
                 <div className="buttons">
-                 <a href={project.url} target="_blank"><button className="know-more-button">Repository</button></a> 
+                 <a href={project.url} ><button className="know-more-button">Repository</button></a> 
                   {/* <button className="link-btn">
                     <span>Preview</span>
                     <FaExternalLinkAlt />
