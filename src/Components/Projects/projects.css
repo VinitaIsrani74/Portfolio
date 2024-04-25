@@ -1,0 +1,159 @@
+.projects {
+  background-color: aliceblue;
+  color: black;
+  width: 100%;
+  min-height: 100vh;
+  height: fit-content;
+}
+
+.section-heading {
+  padding-top: 9rem;
+  margin-bottom: 4rem;
+  font-size: 50px;
+  margin-left: 10%;
+  background: var(--gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.all-items {
+  margin: 1rem;
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.item {
+  border-radius: 20px;
+  background-color: transparent;
+  box-shadow: 0px 1px 5px rgba(14, 13, 13, 0.886);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  height: fit-content;
+margin: 0;
+padding-top: 0;
+  width: 48%;
+}
+
+.project-img {
+  box-shadow: 0px 1px 2px rgba(14, 13, 13, 0.934);
+  object-fit: cover;
+  width: 100%;
+
+height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+.carousel-container{
+
+  width: 100%;
+}
+
+.carousel-div{
+ object-fit: cover;
+  width: 100%;
+}
+.carousel-img{
+ 
+  height: 27rem;
+}
+
+.project-desc {
+  width: 90%;
+  text-align: justify;
+}
+
+.left {
+margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.item .right {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.right strong {
+  padding: 10px;
+  margin: 1rem;
+  background-color: rgb(232, 234, 233);
+  width: 90%;
+}
+.project-title {
+  margin-left: 1rem;
+  color: rgb(14, 13, 13);
+  font-size: 30px;
+  margin-bottom: 1rem;
+}
+
+.project-sub-title {
+  padding: 1rem;
+  text-align: justify;
+  font-size: 20px;
+  color: rgb(14, 13, 13);
+}
+.project-desc {
+  text-align: justify;
+  font-size: 14px;
+}
+.know-more-button {
+  color: aliceblue;
+  padding: 15px 50px;
+  border-radius: 50px;
+  background: var(--gradient);
+  cursor: pointer;
+  transition: 0.5s;
+  margin-bottom: 1rem;
+}
+
+.know-more-button:hover {
+  box-shadow: 2px 2px 5px rgb(18, 0, 0);
+}
+.show-more {
+  background-color: transparent;
+  padding: 15px 50px;
+  cursor: pointer;
+  border: 2px solid rgb(18, 0, 0);
+  box-shadow: 2px 2px 5px rgb(18, 0, 0);
+  border-radius: 50px;
+  transition: 1s;
+  margin-bottom: 2rem;
+}
+
+.show-more:hover {
+  background-color: rgb(18, 0, 0);
+  color: antiquewhite;
+}
+
+@media screen and (max-width: 800px) {
+  .item {
+    width: 100%;
+    margin: 10px;
+  }
+  .section-heading{
+font-size: 40px;
+padding-top: 3rem;
+  }
+  .carousel-img{
+    height: 20rem;
+  }
+}
