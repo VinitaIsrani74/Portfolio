@@ -172,7 +172,6 @@ const Projects = () => {
                 </div>
             </Carousel>
 
-                  <img src={project.img} alt="img" />
                 </div>
               </div>
 
