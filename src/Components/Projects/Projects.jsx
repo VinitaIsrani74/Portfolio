@@ -159,20 +159,20 @@ const Projects = () => {
                 className="carousel-container"
                 >
                 <div className="carousel-div">
-                    <img src={project.img.url1} className="carousel-img" />
+                    <img src={project.img.url1} alt="img" className="carousel-img" />
                  
                 </div>
                 <div className="carousel-div">
-                    <img src={project.img.url2} className="carousel-img" />
+                    <img src={project.img.url2} alt="img" className="carousel-img" />
                   
                 </div>
                 <div className="carousel-div">
-                    <img src={project.img.url3} className="carousel-img" />
+                    <img src={project.img.url3} alt="alt" className="carousel-img" />
                     
                 </div>
             </Carousel>
 
-                  <img src={project.img}alt="" />
+                  <img src={project.img} alt="img" />
                 </div>
               </div>
 
