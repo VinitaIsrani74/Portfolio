@@ -184,3 +184,20 @@ color: rgb(18, 0, 0);
    
   }
 }
+
+@media screen and (max-width: 500px) {
+ .hero-action{
+  flex-direction: column;
+ 
+  width: 90%;
+ }
+ .hero-connect {
+  padding: 20px 70px;
+ 
+}
+
+.hero-resume {
+  padding: 18px 67px;
+ 
+}
+}
