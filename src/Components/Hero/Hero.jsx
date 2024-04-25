@@ -14,7 +14,7 @@ const Hero = ({ github }) => {
       
       <div className="contain">
         <div className="profile">
-          <img src={Profile} alt="" className="profile-image" />
+          <img src={Profile} alt="hero" className="profile-image" />
         </div>
         <div className="profile-details-role">
           <TypeAnimation
