@@ -6,7 +6,7 @@ import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
 import { SiRedux } from "react-icons/si";
-import { FaBootstrap } from "react-icons/fa";
+
 import { DiResponsive } from "react-icons/di";
 
 //backend skills icon
@@ -24,7 +24,7 @@ import { SiMongodb } from "react-icons/si";
 import { FaPix } from "react-icons/fa6";
 import { CiDatabase } from "react-icons/ci"
 import cors from '../../assets/cors.png'
-import Postman from '../../assets/postmanicon.png'
+
 import { SiThunderstore } from "react-icons/si";
 import { SiAxios } from "react-icons/si";
 
