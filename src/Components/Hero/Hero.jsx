@@ -36,8 +36,8 @@ const Hero = ({ github }) => {
 
         </div>
         <p className="links">
-            <a href="https://github.com/VinitaIsrani74" target="_blank" className="link"><FaGithub  /></a>
-            <a href="https://www.linkedin.com/in/vinita-israni-0b704a219/" target="_blank" className="link"><FaLinkedin  /></a>
+            <a href="https://github.com/VinitaIsrani74"  className="link"><FaGithub  /></a>
+            <a href="https://www.linkedin.com/in/vinita-israni-0b704a219/" className="link"><FaLinkedin  /></a>
             <a href="mailto:isranivinita74@gmail.com" style={{fontSize: "4.5rem"}}><IoIosMail /></a>
             </p>
 
