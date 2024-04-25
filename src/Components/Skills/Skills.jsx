@@ -77,32 +77,32 @@ const Skills = () => {
         <div className="skill-container">
           <div className="skill">
             <span className="skill-name">NodeJS</span>
-            <img src={node} alt="" className="imgg"/>
+            <img src={node} alt="skills" className="imgg"/>
           </div>
           <div className="skill">
             <span className="skill-name">Express</span>
-            <img src={express} alt="" className="imgg"/>
+            <img src={express} alt="skills" className="imgg"/>
           </div>
           <div className="skill">
             <span className="skill-name">Java</span>
-            <img src={java} alt="" className="imgg"/>
+            <img src={java} alt="skills" className="imgg"/>
           </div>
           <div className="skill">
             <span className="skill-name">Python Basics</span>
-            <img src={python} alt="" className="imgg"/>
+            <img src={python} alt="skills" className="imgg"/>
           </div>
           <div className="skill">
             <span className="skill-name">C</span>
-            <img src={cIcon} alt="" className="imgg"/>
+            <img src={cIcon} alt="skills" className="imgg"/>
           </div>
           <div className="skill">
             <span className="skill-name">C++</span>
-            <img src={cpp} alt="" className="imgg"/>
+            <img src={cpp} alt="skills" className="imgg"/>
           </div>
           
           <div className="skill">
             <span className="skill-name">MySQL</span>
-            <img src={mysql} alt="" className="imgg"/>
+            <img src={mysql} alt="skills" className="imgg"/>
           </div>
           <div className="skill">
             <span className="skill-name">mongoose</span>
@@ -125,7 +125,7 @@ const Skills = () => {
           </div>
           <div className="skill">
             <span className="skill-name">Cors</span>
-            <img src={cors} alt="" className="imgg" style={{objectFit: "cover",borderRadius: "5px"}}/>
+            <img src={cors} alt="skills" className="imgg" style={{objectFit: "cover",borderRadius: "5px"}}/>
           </div>
           <div className="skill">
             <span className="skill-name">Data Sctructures and algorithm</span>
