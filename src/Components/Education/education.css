@@ -56,17 +56,6 @@
   box-shadow: 0px 3px 12px red;
 }
 
-.box::before{
-content: '';
-position: absolute;
-width: 16px;
-height: 16px;
-border-radius: 50%;
-right: calc(100% + 22px);
-top: 0;
-background-color: blueviolet;
-border:  2px solid whitesmoke;
-}
 
 .box h4{
     position: absolute;
@@ -96,5 +85,8 @@ border:  2px solid whitesmoke;
     .box h4{
         position: static;
         
+    }
+    .box{
+        width: 90%;
     }
 }
