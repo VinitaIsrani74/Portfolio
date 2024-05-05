@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { IoIosMail } from "react-icons/io";
-import Profile from "../../assets/profile1.png";
+import Profile from "../../assets/profile.png";
 import resume from '../../assets/resume.pdf'
 
 import "./hero.css";
