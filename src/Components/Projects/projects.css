@@ -136,6 +136,7 @@ margin-bottom: 2rem;
   box-shadow: 2px 2px 5px rgb(18, 0, 0);
   border-radius: 50px;
   transition: 1s;
+  margin-top: 1.5rem;
   margin-bottom: 2rem;
 }
 
@@ -145,6 +146,12 @@ margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 800px) {
+  .all-items {
+    margin: 0px;
+    width: 97%;
+   
+    gap: 3rem;
+  }
   .item {
     width: 100%;
     margin: 10px;
@@ -155,5 +162,24 @@ padding-top: 3rem;
   }
   .carousel-img{
     height: 20rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .all-items {
+    margin: 0px;
+    width: 97%;
+   
+    gap: 3rem;
+  }
+  .item {
+    width: 100%;
+    margin: 10px;
+  }
+  .section-heading{
+font-size: 30px;
+padding-top: 3rem;
+  }
+  .carousel-img{
+    height: 15rem;
   }
 }
