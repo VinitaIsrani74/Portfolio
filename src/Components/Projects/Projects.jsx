@@ -54,9 +54,7 @@ const Projects = () => {
         "Leveraged asynchronous JavaScript functions (such as fetch) to interact with the API seamlessly within the application",
         "Learned to parse JSON responses received from the OpenAI API, extracting relevant image data for display",
         "Real-time rendering of AI-generated images.",
-       
-        "Integrated async/await for asynchronous programming."
-      ],
+           ],
       technology:
         "Built using HTML (for layout), CSS (for styling), JavaScript (for dynamic functionality) and OpenAI (to generate images using AI algorithms) ",
       url: "https://github.com/VinitaIsrani74/Hangman-Game",
