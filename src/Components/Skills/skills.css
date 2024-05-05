@@ -100,4 +100,9 @@
     width: 90%;
     font-size: 15px;
   }
+  .containerr {
+    gap: 2rem;
+    width: 94%;
+    
+  }
 }
