@@ -124,7 +124,15 @@ margin-bottom: 2rem;
   transition: 0.5s;
   margin-bottom: 1rem;
 }
-
+.live-link-button, .demo-button {
+  color: black;
+  padding: 15px 50px;
+  border-radius: 50px;
+ border: 3px solid plum;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-bottom: 1rem;
+}
 .know-more-button:hover {
   box-shadow: 2px 2px 5px rgb(18, 0, 0);
 }
