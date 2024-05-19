@@ -115,6 +115,11 @@ margin-bottom: 2rem;
   text-align: justify;
   font-size: 14px;
 }
+.buttons{
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
 .know-more-button {
   color: aliceblue;
   padding: 15px 50px;
