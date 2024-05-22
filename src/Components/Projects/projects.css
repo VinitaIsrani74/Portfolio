@@ -44,8 +44,8 @@
   overflow: hidden;
 
   height: fit-content;
-margin: 0;
-padding-top: 0;
+  margin: 0;
+  padding-top: 0;
   width: 48%;
 }
 
@@ -54,22 +54,20 @@ padding-top: 0;
   object-fit: cover;
   width: 100%;
 
-height: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-} 
-.carousel-container{
-
+}
+.carousel-container {
   width: 100%;
 }
 
-.carousel-div{
- object-fit: cover;
+.carousel-div {
+  object-fit: cover;
   width: 100%;
 }
-.carousel-img{
- 
+.carousel-img {
   height: 27rem;
 }
 
@@ -79,14 +77,13 @@ height: 100%;
 }
 
 .left {
-margin-bottom: 2rem;
+  margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 .item .right {
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -115,29 +112,38 @@ margin-bottom: 2rem;
   text-align: justify;
   font-size: 14px;
 }
-.buttons{
+.buttons {
   display: flex;
+  padding: 1rem;
   gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .know-more-button {
   color: aliceblue;
-  padding: 15px 50px;
+  padding: 15px;
+  width: 10rem;
+  flex: 1;
   border-radius: 50px;
   background: var(--gradient);
   cursor: pointer;
   transition: 0.5s;
   margin-bottom: 1rem;
 }
-.live-link-button, .demo-button {
+.live-link-button,
+.demo-button {
   color: black;
-  padding: 15px 50px;
+  padding: 15px;
+  width: 10rem;
+  flex: 1;
   border-radius: 50px;
- border: 3px solid plum;
+  border: 3px solid plum;
   cursor: pointer;
   transition: 0.5s;
   margin-bottom: 1rem;
 }
+
 .know-more-button:hover {
   box-shadow: 2px 2px 5px rgb(18, 0, 0);
 }
@@ -158,41 +164,53 @@ margin-bottom: 2rem;
   color: antiquewhite;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .all-items {
     margin: 0px;
     width: 97%;
-   
+
     gap: 3rem;
+  }
+  .buttons {
+    flex-direction: column;
+
+    width: 100%;
+    gap: 0.4rem;
+  }
+  .know-more-button,
+  .live-link-button,
+  .demo-button {
+    width: 15rem ;
   }
   .item {
     width: 100%;
     margin: 10px;
   }
-  .section-heading{
-font-size: 40px;
-padding-top: 3rem;
+  .section-heading {
+    font-size: 40px;
+    padding-top: 3rem;
   }
-  .carousel-img{
+  .carousel-img {
     height: 20rem;
   }
+ 
 }
 @media screen and (max-width: 500px) {
   .all-items {
     margin: 0px;
     width: 97%;
-   
+
     gap: 3rem;
   }
   .item {
     width: 100%;
     margin: 10px;
   }
-  .section-heading{
-font-size: 30px;
-padding-top: 3rem;
+  .section-heading {
+    font-size: 30px;
+    padding-top: 3rem;
   }
-  .carousel-img{
+  .carousel-img {
     height: 15rem;
   }
 }
