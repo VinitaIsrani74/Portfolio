@@ -40,10 +40,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   overflow: hidden;
 
-  height: fit-content;
+  height: 56rem;
   margin: 0;
   padding-top: 0;
   width: 48%;
@@ -72,7 +72,7 @@
 }
 
 .project-desc {
-  width: 90%;
+  width: 100%;
   text-align: justify;
 }
 
@@ -84,6 +84,7 @@
   justify-content: center;
 }
 .item .right {
+  width: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -102,15 +103,24 @@
   margin-bottom: 1rem;
 }
 
-.project-sub-title {
-  padding: 1rem;
-  text-align: justify;
-  font-size: 20px;
-  color: rgb(14, 13, 13);
-}
 .project-desc {
+  padding: 1rem;
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+  height: fit-content;
+  flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
   text-align: justify;
   font-size: 14px;
+}
+.technology{
+  border-radius: 10px;
+  font-size: 1.2rem;
+  padding: 0.7rem;
+  background-color: rgb(198, 231, 252);
+  min-width: fit-content;
 }
 .buttons {
   display: flex;
