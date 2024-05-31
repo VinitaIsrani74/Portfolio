@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 // project images
+import RealEstate1 from '../../assets/projectImages/RealEstate/RealEstate1.png'
+import RealEstate2 from '../../assets/projectImages/RealEstate/RealEstate2.png'
+import RealEstate3 from '../../assets/projectImages/RealEstate/RealEstate3.png'
 import SocialMedia from "../../assets/projectImages/Social-media.png";
 import SocialMedia1 from "../../assets/projectImages/social-media1.png";
 import SocialMedia2 from "../../assets/projectImages/social-media-2.png";
@@ -32,6 +35,26 @@ const Projects = () => {
   const [projectsToShow, setProjectsToShow] = useState(2);
   const totalProjects = [
     {
+      img: { url1: RealEstate3, url2: RealEstate2, url3: RealEstate1},
+      projectTitle: "PropertyPulse (Real Estate MERN Project)",
+      projectSubTitle:
+        "Developed a full-stack social media platform using the MERN (MongoDB, Express.js, React.js, Node.js) stack.",
+      projectDesc: [
+        "Built a MERN stack social media clone with Redux, CORS, Axios, Socket.IO, and JWT authentication.",
+        "Leveraged MongoDB, Express.js, React.js, and Node.js for seamless full-stack development.",
+        "REST API: Developed a RESTful API architecture to facilitate communication between the frontend and backend, ensuring efficient data transfer and interaction with the server.",
+        "Redux managed state efficiently, while CORS ensured secure communication. ",
+        "Axios handled HTTP requests, Socket.IO enabled real-time updates, and JWT authenticated users securely.",
+      ],
+      tech: ["MERN(MongoDB, Express.js, React.js, Node.js)", "Redux Toolkit", "RESTful API", "JWT Auth","Google Auth","Password Hashing", "Firebase"],
+      technology:
+        "Built using the MERN stack: MongoDB, Express.js, React.js, Node.js. along with Redux,REST API , JWT Authentication, Password Hashing, Axios, Cors. ",
+      url: "https://github.com/VinitaIsrani74/Real-Estate-MarketPlace-MERN",
+      liveUrl: "https://real-estate-marketplace-mern-qsrv.onrender.com/",
+      demoUrl:
+        "https://www.linkedin.com/feed/update/urn:li:activity:7202226598438211584/",
+    },
+    {
       img: { url1: SocialMedia, url2: SocialMedia1, url3: SocialMedia2 },
       projectTitle: "Social-Media Clone (MERN Project)",
       projectSubTitle:
@@ -43,6 +66,7 @@ const Projects = () => {
         "Redux managed state efficiently, while CORS ensured secure communication. ",
         "Axios handled HTTP requests, Socket.IO enabled real-time updates, and JWT authenticated users securely.",
       ],
+      tech: ["MERN(MongoDB, Express.js, React.js, Node.js)", "Redux", "RESTful API", "JWT Auth","Axios","Password Hashing","Cors"],
       technology:
         "Built using the MERN stack: MongoDB, Express.js, React.js, Node.js. along with Redux,REST API , JWT Authentication, Password Hashing, Axios, Cors. ",
       url: "https://github.com/VinitaIsrani74/Social-Media-Clone-MERN-Stack-Project",
@@ -61,8 +85,8 @@ const Projects = () => {
         "Efficient State Management: Leverages Redux Toolkit for streamlined state management, ensuring fast and consistent updates.",
         
       ],
-      technology:
-        "Built using HTML (for layout), CSS (for styling) and JavaScript (for Game logic, interactivity and User input management.) ",
+      tech: ["HTML (for layout)", "CSS (for styling)","React",  "Redux Toolkit for streamlined state management"],
+     
       url: "https://github.com/VinitaIsrani74/Add-to-Cart-using-Redux-Toolkit",
       liveUrl: "https://add-to-cart-redux-toolkit.netlify.app/",
       demoUrl:
@@ -79,8 +103,8 @@ const Projects = () => {
         "Update: Modifies existing records via PUT/PATCH requests.",
         "Delete: Removes records from the database via DELETE requests.",
       ],
-      technology:
-        "Built using NodeJS (for  Server-side JavaScript runtime environment), ExpressJS(Web application framework for Node.js to build the REST API), MongoDB( NoSQL database for data storage), moongoose(ODM (Object Data Modeling) library for MongoDB and Node.js) and Thunder Client(For testing API endpoints during development).",
+      tech: ["NodeJS", "ExpressJS(to build the REST API)", "MongoDB( NoSQL database for data storage)", "moongoose","Thunder Client(For testing API endpoints during development)"],
+
       url: "https://github.com/VinitaIsrani74/REST-API",
         demoUrl:
         "https://www.linkedin.com/posts/vinita-israni-0b704a219_project-overview-i-built-a-mini-project-activity-7192171092998832129-H74e?utm_source=share&utm_medium=member_desktop",
@@ -98,8 +122,8 @@ const Projects = () => {
         "Learned to parse JSON responses received from the OpenAI API, extracting relevant image data for display",
         "Real-time rendering of AI-generated images.",
       ],
-      technology:
-        "Built using HTML (for layout), CSS (for styling), JavaScript (for dynamic functionality) and OpenAI (to generate images using AI algorithms) ",
+      tech: ["HTML (for layout)", " CSS (for styling)", "JavaScript (for dynamic functionality)", "OpenAI (to generate images using AI algorithms)"],
+  
       url: "https://github.com/VinitaIsrani74/Hangman-Game",
     },
     {
@@ -113,8 +137,8 @@ const Projects = () => {
         "Option to play again after winning or losing.",
         "Handled win and loss conditions with appropriate feedback to the player.",
       ],
-      technology:
-        "Built using HTML (for layout), CSS (for styling) and JavaScript (for Game logic, interactivity and User input management.) ",
+      tech: ["HTML (for layout)", " CSS (for styling)", "RESTful API", "JavaScript (for Game logic, interactivity and User input management.)"],
+      
       url: "https://github.com/VinitaIsrani74/Hangman-Game",
       liveUrl: "https://hangman-game-uncover-the-hidden-world.netlify.app/",
       demoUrl:
@@ -129,8 +153,8 @@ const Projects = () => {
         "Utilizes the Fetch API method with async/await to asynchronously request recipe data from the external API.",
         "Explored asynchronous programming concepts in JavaScript, understanding the importance of handling asynchronous tasks without blocking the main thread.",
       ],
-      technology:
-        "Built using HTML (for structuring the app's layout), CSS (for styling) and JavaScript (for interactivity, User input management and for making asynchronous requests to the API) ",
+      tech: ["HTML (for structuring the app's layout)", "CSS (for styling)", "JavaScript (for interactivity, User input management and for making asynchronous requests to the API)"],
+      
       url: "https://github.com/VinitaIsrani74/Food-Recipe-App",
       liveUrl: "https://food-recipe-appp.netlify.app/",
       demoUrl:
@@ -147,8 +171,8 @@ const Projects = () => {
         "Explored asynchronous programming concepts in JavaScript, understanding the importance of handling asynchronous tasks without blocking the main thread.",
         "Users also have the option to search for weather in specific locations by entering a city name or country name",
       ],
-      technology:
-        "Built using HTML (for structuring the app's layout), CSS (for styling) and JavaScript (for interactivity, User input management and for making asynchronous requests to the API) ",
+      tech: ["HTML (for structuring the app's layout)", "CSS (for styling)", "JavaScript (for interactivity, User input management and for making asynchronous requests to the API)"],
+      
       url: "https://github.com/VinitaIsrani74/Weather-application",
       liveUrl: "https://weather-the-storm.netlify.app/",
     },
@@ -162,8 +186,8 @@ const Projects = () => {
         "Compares the player's choice with the computer's choice to determine the winner of each round.",
         "Implementing the rules and logic of the stone-paper-scissors game would have sharpened my problem-solving skills, especially in translating real-world rules into code.",
       ],
-      technology:
-        "Built using HTML (for layout), CSS (for styling) and JavaScript ( Provided the game's functionality, including user input handling, game logic, and updating the UI based on game outcomes.) ",
+      tech: ["HTML (for layout)", "CSS (for styling)", "JavaScript ( Provided the game's functionality, including user input handling, game logic, and updating the UI based on game outcomes.)"],
+      
       url: "https://github.com/VinitaIsrani74/Hangman-Game",
       liveUrl: "https://hand-clash.netlify.app/",
     },
@@ -226,15 +250,15 @@ const Projects = () => {
 
               <div className="right">
                 <h2 className="project-title">{project.projectTitle} </h2>
-                <h3 className="project-sub-title">{project.projectSubTitle}</h3>
+                
                 <div className="project-desc">
-                  <ul>
-                    {project.projectDesc.map((desc) => (
-                      <li>{desc}</li>
-                    ))}
-                  </ul>
+                  {
+                    project.tech.map((technology) => (
+                      <div className="technology">#{technology}</div>
+                    ))
+                  }
                 </div>
-                <strong>Technology Used:{project.technology}</strong>
+              
                 <div className="buttons">
                   <a href={project.url}>
                     <button className="know-more-button">Repository</button>
